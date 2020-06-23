@@ -1,0 +1,231 @@
+2020-01-08 23:29:27,389 ERROR 3557 [-/::1/-/38ms GET /default/getArticleList] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.title as titlearticle.introduce as introducearticle.addTime as addTimearticle.v' at line 1
+    at Query.Sequence._packetToError (/Users/wanyuqing/github/wyq_blog/service/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/wanyuqing/github/wyq_blog/service/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/wanyuqing/github/wyq_blog/service/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/wanyuqing/github/wyq_blog/service/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/wanyuqing/github/wyq_blog/service/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/wanyuqing/github/wyq_blog/service/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/wanyuqing/github/wyq_blog/service/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/wanyuqing/github/wyq_blog/service/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    --------------------
+    at Pool.query (/Users/wanyuqing/github/wyq_blog/service/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/wanyuqing/github/wyq_blog/service/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/wanyuqing/github/wyq_blog/service/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/wanyuqing/github/wyq_blog/service/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/wanyuqing/github/wyq_blog/service/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/wanyuqing/github/wyq_blog/service/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/wanyuqing/github/wyq_blog/service/node_modules/co/index.js:65:19)
+    at /Users/wanyuqing/github/wyq_blog/service/node_modules/co/index.js:54:5
+    sql: SELECT article.id as idarticle.title as titlearticle.introduce as introducearticle.addTime as addTimearticle.view_count as view_counttype.typeName as typeNameFROM article LEFT JOIN type ON article.type_id = type.id
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.title as titlearticle.introduce as introducearticle.addTime as addTimearticle.v' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT article.id as idarticle.title as titlearticle.introduce as introducearticle.addTime as addTimearticle.view_count as view_counttype.typeName as typeNameFROM article LEFT JOIN type ON article.type_id = type.id"
+name: "ER_PARSE_ERRORError"
+pid: 3557
+hostname: admindeMBP-71.lan
+
+2020-01-08 23:30:26,370 ERROR 3633 [-/::1/-/18ms GET /default/getArticleList] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM article LEFT JOIN type ON article.type_id = type.id' at line 1
+    at Query.Sequence._packetToError (/Users/wanyuqing/github/wyq_blog/service/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/wanyuqing/github/wyq_blog/service/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/wanyuqing/github/wyq_blog/service/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/wanyuqing/github/wyq_blog/service/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/wanyuqing/github/wyq_blog/service/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/wanyuqing/github/wyq_blog/service/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/wanyuqing/github/wyq_blog/service/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/wanyuqing/github/wyq_blog/service/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    --------------------
+    at Pool.query (/Users/wanyuqing/github/wyq_blog/service/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/wanyuqing/github/wyq_blog/service/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/wanyuqing/github/wyq_blog/service/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/wanyuqing/github/wyq_blog/service/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/wanyuqing/github/wyq_blog/service/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/wanyuqing/github/wyq_blog/service/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/wanyuqing/github/wyq_blog/service/node_modules/co/index.js:65:19)
+    at /Users/wanyuqing/github/wyq_blog/service/node_modules/co/index.js:54:5
+    sql: SELECT article.id as id ,article.title as title ,article.introduce as introduce ,article.addTime as addTime ,article.view_count as view_count ,type.typeName as typeName ,FROM article LEFT JOIN type ON article.type_id = type.id
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM article LEFT JOIN type ON article.type_id = type.id' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT article.id as id ,article.title as title ,article.introduce as introduce ,article.addTime as addTime ,article.view_count as view_count ,type.typeName as typeName ,FROM article LEFT JOIN type ON article.type_id = type.id"
+name: "ER_PARSE_ERRORError"
+pid: 3633
+hostname: admindeMBP-71.lan
+
+2020-01-08 23:30:29,222 ERROR 3633 [-/::1/-/4ms GET /default/getArticleList] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM article LEFT JOIN type ON article.type_id = type.id' at line 1
+    at Query.Sequence._packetToError (/Users/wanyuqing/github/wyq_blog/service/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/wanyuqing/github/wyq_blog/service/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/wanyuqing/github/wyq_blog/service/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/wanyuqing/github/wyq_blog/service/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/wanyuqing/github/wyq_blog/service/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/wanyuqing/github/wyq_blog/service/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/wanyuqing/github/wyq_blog/service/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/wanyuqing/github/wyq_blog/service/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    --------------------
+    at Pool.query (/Users/wanyuqing/github/wyq_blog/service/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/wanyuqing/github/wyq_blog/service/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/wanyuqing/github/wyq_blog/service/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/wanyuqing/github/wyq_blog/service/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/wanyuqing/github/wyq_blog/service/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/wanyuqing/github/wyq_blog/service/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/wanyuqing/github/wyq_blog/service/node_modules/co/index.js:65:19)
+    at /Users/wanyuqing/github/wyq_blog/service/node_modules/co/index.js:54:5
+    sql: SELECT article.id as id ,article.title as title ,article.introduce as introduce ,article.addTime as addTime ,article.view_count as view_count ,type.typeName as typeName ,FROM article LEFT JOIN type ON article.type_id = type.id
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM article LEFT JOIN type ON article.type_id = type.id' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT article.id as id ,article.title as title ,article.introduce as introduce ,article.addTime as addTime ,article.view_count as view_count ,type.typeName as typeName ,FROM article LEFT JOIN type ON article.type_id = type.id"
+name: "ER_PARSE_ERRORError"
+pid: 3633
+hostname: admindeMBP-71.lan
+
+2020-01-08 23:44:15,845 ERROR 5539 [-/127.0.0.1/-/16ms GET /default/getArticleList] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.addTime as addTime ,article.view_count as view_count ,type.typeName as typeName' at line 1
+    at Query.Sequence._packetToError (/Users/wanyuqing/github/wyq_blog/service/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/wanyuqing/github/wyq_blog/service/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/wanyuqing/github/wyq_blog/service/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/wanyuqing/github/wyq_blog/service/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/wanyuqing/github/wyq_blog/service/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/wanyuqing/github/wyq_blog/service/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/wanyuqing/github/wyq_blog/service/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/wanyuqing/github/wyq_blog/service/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    --------------------
+    at Pool.query (/Users/wanyuqing/github/wyq_blog/service/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/wanyuqing/github/wyq_blog/service/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/wanyuqing/github/wyq_blog/service/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/wanyuqing/github/wyq_blog/service/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/wanyuqing/github/wyq_blog/service/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/wanyuqing/github/wyq_blog/service/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/wanyuqing/github/wyq_blog/service/node_modules/co/index.js:65:19)
+    at /Users/wanyuqing/github/wyq_blog/service/node_modules/co/index.js:54:5
+    sql: SELECT article.id as id ,article.title as title ,article.introduce as introduce ,FROM_UNIXTIME(article.addTime, '%Y-%m-%d %H:%i:%s') article.addTime as addTime ,article.view_count as view_count ,type.typeName as typeName FROM article LEFT JOIN type ON article.type_id = type.id
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.addTime as addTime ,article.view_count as view_count ,type.typeName as typeName' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT article.id as id ,article.title as title ,article.introduce as introduce ,FROM_UNIXTIME(article.addTime, '%Y-%m-%d %H:%i:%s') article.addTime as addTime ,article.view_count as view_count ,type.typeName as typeName FROM article LEFT JOIN type ON article.type_id = type.id"
+name: "ER_PARSE_ERRORError"
+pid: 5539
+hostname: admindeMBP-71.lan
+
+2020-01-08 23:44:32,328 ERROR 5539 [-/127.0.0.1/-/3ms GET /default/getArticleList] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.addTime as addTime ,article.view_count as view_count ,type.typeName as typeName' at line 1
+    at Query.Sequence._packetToError (/Users/wanyuqing/github/wyq_blog/service/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/wanyuqing/github/wyq_blog/service/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/wanyuqing/github/wyq_blog/service/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/wanyuqing/github/wyq_blog/service/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/wanyuqing/github/wyq_blog/service/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/wanyuqing/github/wyq_blog/service/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/wanyuqing/github/wyq_blog/service/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/wanyuqing/github/wyq_blog/service/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    --------------------
+    at Pool.query (/Users/wanyuqing/github/wyq_blog/service/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/wanyuqing/github/wyq_blog/service/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/wanyuqing/github/wyq_blog/service/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/wanyuqing/github/wyq_blog/service/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/wanyuqing/github/wyq_blog/service/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/wanyuqing/github/wyq_blog/service/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/wanyuqing/github/wyq_blog/service/node_modules/co/index.js:65:19)
+    at /Users/wanyuqing/github/wyq_blog/service/node_modules/co/index.js:54:5
+    sql: SELECT article.id as id ,article.title as title ,article.introduce as introduce ,FROM_UNIXTIME(article.addTime, '%Y-%m-%d %H:%i:%s') article.addTime as addTime ,article.view_count as view_count ,type.typeName as typeName FROM article LEFT JOIN type ON article.type_id = type.id
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.addTime as addTime ,article.view_count as view_count ,type.typeName as typeName' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT article.id as id ,article.title as title ,article.introduce as introduce ,FROM_UNIXTIME(article.addTime, '%Y-%m-%d %H:%i:%s') article.addTime as addTime ,article.view_count as view_count ,type.typeName as typeName FROM article LEFT JOIN type ON article.type_id = type.id"
+name: "ER_PARSE_ERRORError"
+pid: 5539
+hostname: admindeMBP-71.lan
+
+2020-01-08 23:59:12,371 ERROR 6570 [-/127.0.0.1/-/22ms GET /default/getArticleById] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'type.id as typeId FROM article LEFT JOIN type ON article.type_id = type.idWHERE ' at line 1
+    at Query.Sequence._packetToError (/Users/wanyuqing/github/wyq_blog/service/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/wanyuqing/github/wyq_blog/service/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/wanyuqing/github/wyq_blog/service/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/wanyuqing/github/wyq_blog/service/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/wanyuqing/github/wyq_blog/service/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/wanyuqing/github/wyq_blog/service/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/wanyuqing/github/wyq_blog/service/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/wanyuqing/github/wyq_blog/service/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    --------------------
+    at Pool.query (/Users/wanyuqing/github/wyq_blog/service/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/wanyuqing/github/wyq_blog/service/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/wanyuqing/github/wyq_blog/service/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/wanyuqing/github/wyq_blog/service/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/wanyuqing/github/wyq_blog/service/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/wanyuqing/github/wyq_blog/service/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/wanyuqing/github/wyq_blog/service/node_modules/co/index.js:65:19)
+    at /Users/wanyuqing/github/wyq_blog/service/node_modules/co/index.js:54:5
+    sql: SELECT article.id as id ,article.title as title ,article.introduce as introduce ,article.article_content as article_content ,FROM_UNIXTIME(article.addTime, '%Y-%m-%d %H:%i:%s')  as addTime ,article.view_count as view_count ,type.typeName as typeName type.id as typeId FROM article LEFT JOIN type ON article.type_id = type.idWHERE article.id =[object Object]
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'type.id as typeId FROM article LEFT JOIN type ON article.type_id = type.idWHERE ' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT article.id as id ,article.title as title ,article.introduce as introduce ,article.article_content as article_content ,FROM_UNIXTIME(article.addTime, '%Y-%m-%d %H:%i:%s')  as addTime ,article.view_count as view_count ,type.typeName as typeName type.id as typeId FROM article LEFT JOIN type ON article.type_id = type.idWHERE article.id =[object Object]"
+name: "ER_PARSE_ERRORError"
+pid: 6570
+hostname: admindeMBP-71.lan
+
+2020-01-08 23:59:59,430 ERROR 6637 [-/127.0.0.1/-/12ms GET /default/getArticleById] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'article LEFT JOIN type ON article.type_id = type.idWHERE article.id =[object Obj' at line 1
+    at Query.Sequence._packetToError (/Users/wanyuqing/github/wyq_blog/service/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/wanyuqing/github/wyq_blog/service/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/wanyuqing/github/wyq_blog/service/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/wanyuqing/github/wyq_blog/service/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/wanyuqing/github/wyq_blog/service/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/wanyuqing/github/wyq_blog/service/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/wanyuqing/github/wyq_blog/service/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/wanyuqing/github/wyq_blog/service/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    --------------------
+    at Pool.query (/Users/wanyuqing/github/wyq_blog/service/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/wanyuqing/github/wyq_blog/service/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/wanyuqing/github/wyq_blog/service/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/wanyuqing/github/wyq_blog/service/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/wanyuqing/github/wyq_blog/service/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/wanyuqing/github/wyq_blog/service/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/wanyuqing/github/wyq_blog/service/node_modules/co/index.js:65:19)
+    at /Users/wanyuqing/github/wyq_blog/service/node_modules/co/index.js:54:5
+    sql: SELECT article.id as id ,article.title as title ,article.introduce as introduce ,article.article_content as article_content ,FROM_UNIXTIME(article.addTime, '%Y-%m-%d %H:%i:%s')  as addTime ,article.view_count as view_count ,type.typeName as typeName ,type.id as typeIdFROM article LEFT JOIN type ON article.type_id = type.idWHERE article.id =[object Object]
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'article LEFT JOIN type ON article.type_id = type.idWHERE article.id =[object Obj' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT article.id as id ,article.title as title ,article.introduce as introduce ,article.article_content as article_content ,FROM_UNIXTIME(article.addTime, '%Y-%m-%d %H:%i:%s')  as addTime ,article.view_count as view_count ,type.typeName as typeName ,type.id as typeIdFROM article LEFT JOIN type ON article.type_id = type.idWHERE article.id =[object Object]"
+name: "ER_PARSE_ERRORError"
+pid: 6637
+hostname: admindeMBP-71.lan
+

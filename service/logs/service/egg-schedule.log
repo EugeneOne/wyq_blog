@@ -1,0 +1,6 @@
+2020-01-14 04:30:00,007 INFO 89210 [Timer] /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 86400003ms at 2020-01-15 04:30:00.010
+2020-01-14 04:30:00,013 INFO 92852 [Job#15789473999914515043493608571] /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js executing by app
+2020-01-14 04:30:00,027 INFO 92852 [Job#15789473999914515043493608571] /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js execute succeed, used 13ms
+2020-05-30 12:28:48,052 INFO 15293 [egg-schedule]: register schedule /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-05-30 12:28:48,052 INFO 15293 [egg-schedule]: register schedule /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-05-30 12:28:48,052 INFO 15293 [egg-schedule]: register schedule /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js

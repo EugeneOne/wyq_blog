@@ -1,0 +1,75 @@
+2020-01-05 22:18:18,484 INFO 61726 [egg-schedule]: register schedule /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-01-05 22:18:18,484 INFO 61726 [egg-schedule]: register schedule /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-01-05 22:18:18,484 INFO 61726 [egg-schedule]: register schedule /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-01-05 22:18:18,657 INFO 61725 [Timer] /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 22301348ms at 2020-01-06 04:30:00.005
+2020-01-05 22:18:18,658 INFO 61725 [Timer] /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 6101343ms at 2020-01-06 00:00:00.001
+2020-01-05 22:18:18,658 INFO 61725 [Timer] /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 6102342ms at 2020-01-06 00:00:01.000
+2020-01-05 22:26:36,622 INFO 62022 [egg-schedule]: register schedule /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-01-05 22:26:36,622 INFO 62022 [egg-schedule]: register schedule /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-01-05 22:26:36,622 INFO 62022 [egg-schedule]: register schedule /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-01-05 22:27:34,964 INFO 62062 [egg-schedule]: register schedule /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-01-05 22:27:34,964 INFO 62062 [egg-schedule]: register schedule /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-01-05 22:27:34,964 INFO 62062 [egg-schedule]: register schedule /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-01-05 22:31:20,437 INFO 62187 [egg-schedule]: register schedule /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-01-05 22:31:20,437 INFO 62187 [egg-schedule]: register schedule /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-01-05 22:31:20,437 INFO 62187 [egg-schedule]: register schedule /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-01-05 22:31:32,724 INFO 62197 [egg-schedule]: register schedule /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-01-05 22:31:32,724 INFO 62197 [egg-schedule]: register schedule /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-01-05 22:31:32,724 INFO 62197 [egg-schedule]: register schedule /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-01-05 22:31:38,574 INFO 62203 [egg-schedule]: register schedule /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-01-05 22:31:38,574 INFO 62203 [egg-schedule]: register schedule /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-01-05 22:31:38,574 INFO 62203 [egg-schedule]: register schedule /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-01-05 22:31:54,482 INFO 62209 [egg-schedule]: register schedule /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-01-05 22:31:54,482 INFO 62209 [egg-schedule]: register schedule /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-01-05 22:31:54,482 INFO 62209 [egg-schedule]: register schedule /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-01-05 22:32:47,599 INFO 62243 [egg-schedule]: register schedule /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-01-05 22:32:47,599 INFO 62243 [egg-schedule]: register schedule /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-01-05 22:32:47,599 INFO 62243 [egg-schedule]: register schedule /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-01-05 22:32:51,566 INFO 62249 [egg-schedule]: register schedule /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-01-05 22:32:51,566 INFO 62249 [egg-schedule]: register schedule /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-01-05 22:32:51,566 INFO 62249 [egg-schedule]: register schedule /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-01-05 22:33:55,943 INFO 62287 [egg-schedule]: register schedule /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-01-05 22:33:55,943 INFO 62287 [egg-schedule]: register schedule /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-01-05 22:33:55,943 INFO 62287 [egg-schedule]: register schedule /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-01-05 22:34:13,295 INFO 62300 [egg-schedule]: register schedule /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-01-05 22:34:13,295 INFO 62300 [egg-schedule]: register schedule /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-01-05 22:34:13,295 INFO 62300 [egg-schedule]: register schedule /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-01-05 22:34:22,616 INFO 62306 [egg-schedule]: register schedule /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-01-05 22:34:22,616 INFO 62306 [egg-schedule]: register schedule /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-01-05 22:34:22,616 INFO 62306 [egg-schedule]: register schedule /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-01-05 22:34:28,160 INFO 62307 [egg-schedule]: register schedule /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-01-05 22:34:28,160 INFO 62307 [egg-schedule]: register schedule /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-01-05 22:34:28,160 INFO 62307 [egg-schedule]: register schedule /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-01-05 22:34:34,880 INFO 62313 [egg-schedule]: register schedule /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-01-05 22:34:34,880 INFO 62313 [egg-schedule]: register schedule /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-01-05 22:34:34,880 INFO 62313 [egg-schedule]: register schedule /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-01-05 22:34:48,018 INFO 62320 [egg-schedule]: register schedule /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-01-05 22:34:48,018 INFO 62320 [egg-schedule]: register schedule /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-01-05 22:34:48,019 INFO 62320 [egg-schedule]: register schedule /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-01-05 22:35:13,871 INFO 62342 [egg-schedule]: register schedule /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-01-05 22:35:13,871 INFO 62342 [egg-schedule]: register schedule /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-01-05 22:35:13,871 INFO 62342 [egg-schedule]: register schedule /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-01-05 22:35:32,164 INFO 62366 [egg-schedule]: register schedule /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-01-05 22:35:32,164 INFO 62366 [egg-schedule]: register schedule /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-01-05 22:35:32,164 INFO 62366 [egg-schedule]: register schedule /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-01-05 22:35:34,106 INFO 62372 [egg-schedule]: register schedule /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-01-05 22:35:34,106 INFO 62372 [egg-schedule]: register schedule /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-01-05 22:35:34,106 INFO 62372 [egg-schedule]: register schedule /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-01-05 22:35:35,680 INFO 62373 [egg-schedule]: register schedule /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-01-05 22:35:35,680 INFO 62373 [egg-schedule]: register schedule /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-01-05 22:35:35,680 INFO 62373 [egg-schedule]: register schedule /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-01-05 22:35:36,673 INFO 62374 [egg-schedule]: register schedule /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-01-05 22:35:36,673 INFO 62374 [egg-schedule]: register schedule /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-01-05 22:35:36,673 INFO 62374 [egg-schedule]: register schedule /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-01-05 22:35:45,149 INFO 62380 [egg-schedule]: register schedule /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-01-05 22:35:45,149 INFO 62380 [egg-schedule]: register schedule /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-01-05 22:35:45,149 INFO 62380 [egg-schedule]: register schedule /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-01-05 22:36:24,754 INFO 62406 [egg-schedule]: register schedule /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-01-05 22:36:24,754 INFO 62406 [egg-schedule]: register schedule /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-01-05 22:36:24,754 INFO 62406 [egg-schedule]: register schedule /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-01-06 00:00:00,050 INFO 61725 [Timer] /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 86399959ms at 2020-01-07 00:00:00.008
+2020-01-06 00:00:00,049 INFO 62406 [Job#15782400000293860197895227331] /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-logrotator/app/schedule/clean_log.js executing by app
+2020-01-06 00:00:00,062 INFO 62406 [Job#15782400000293860197895227331] /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-logrotator/app/schedule/clean_log.js execute succeed, used 10ms
+2020-01-06 00:00:01,004 INFO 62406 [Job#15782400010033860207563681711] /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js executing by app
+2020-01-06 00:00:01,010 INFO 62406 [Job#15782400010033860207563681711] /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js execute succeed, used 6ms
+2020-01-06 00:00:01,006 INFO 61725 [Timer] /Users/wanyuqing/github/wyq_blog/service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 86399996ms at 2020-01-07 00:00:01.002

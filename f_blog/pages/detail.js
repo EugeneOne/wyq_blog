@@ -108,13 +108,9 @@ const Detail = (props) => {
 
 Detail.getInitialProps = async (context) => {
   const id = context.query.id;
-  const promise = new Promise(resolve => {
-    axios({url: servicePath.getArticleById, params: {id}}).then(res => {
-      console.log(res);
-      resolve(res.data.data[0])
-    })
-  })
-  return await promise
+  const res = await axios({url: servicePath.getArticleById, params: {id}})
+  console.log(res);
+  return res.data.data
 }
 
 export default Detail

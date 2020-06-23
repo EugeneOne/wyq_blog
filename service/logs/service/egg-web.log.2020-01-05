@@ -1,0 +1,310 @@
+2020-01-05 22:18:18,443 INFO 61726 [egg:logger] init all loggers with options: {"dir":"/Users/wanyuqing/github/wyq_blog/service/logs/service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-01-05 22:18:18,485 INFO 61726 [egg-multipart] stream mode enable
+2020-01-05 22:18:18,571 INFO 61726 [egg-static] starting static serve /public/ -> /Users/wanyuqing/github/wyq_blog/service/app/public
+2020-01-05 22:18:18,574 INFO 61726 [egg-security] use csrf middleware
+2020-01-05 22:18:18,575 INFO 61726 [egg-security] use methodnoallow middleware
+2020-01-05 22:18:18,576 INFO 61726 [egg-security] use noopen middleware
+2020-01-05 22:18:18,580 INFO 61726 [egg-security] use nosniff middleware
+2020-01-05 22:18:18,582 INFO 61726 [egg-security] use xssProtection middleware
+2020-01-05 22:18:18,585 INFO 61726 [egg-security] use xframe middleware
+2020-01-05 22:18:18,586 INFO 61726 [egg-security] use dta middleware
+2020-01-05 22:18:18,586 INFO 61726 [egg-security] compose 7 middlewares into one security middleware
+2020-01-05 22:18:18,602 INFO 61726 [egg:core] dump config after load, 10ms
+2020-01-05 22:18:18,624 INFO 61726 [egg-watcher:application] watcher start success
+2020-01-05 22:18:18,638 INFO 61726 [egg:core] dump config after ready, 12ms
+2020-01-05 22:26:36,583 INFO 62022 [egg:logger] init all loggers with options: {"dir":"/Users/wanyuqing/github/wyq_blog/service/logs/service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-01-05 22:26:36,623 INFO 62022 [egg-multipart] stream mode enable
+2020-01-05 22:26:36,705 INFO 62022 [egg-static] starting static serve /public/ -> /Users/wanyuqing/github/wyq_blog/service/app/public
+2020-01-05 22:26:36,709 INFO 62022 [egg-security] use csrf middleware
+2020-01-05 22:26:36,710 INFO 62022 [egg-security] use methodnoallow middleware
+2020-01-05 22:26:36,710 INFO 62022 [egg-security] use noopen middleware
+2020-01-05 22:26:36,711 INFO 62022 [egg-security] use nosniff middleware
+2020-01-05 22:26:36,711 INFO 62022 [egg-security] use xssProtection middleware
+2020-01-05 22:26:36,712 INFO 62022 [egg-security] use xframe middleware
+2020-01-05 22:26:36,712 INFO 62022 [egg-security] use dta middleware
+2020-01-05 22:26:36,712 INFO 62022 [egg-security] compose 7 middlewares into one security middleware
+2020-01-05 22:26:36,725 INFO 62022 [egg:core] dump config after load, 8ms
+2020-01-05 22:26:36,740 INFO 62022 [egg-watcher:application] watcher start success
+2020-01-05 22:26:36,746 INFO 62022 [egg:core] dump config after ready, 4ms
+2020-01-05 22:27:34,929 INFO 62062 [egg:logger] init all loggers with options: {"dir":"/Users/wanyuqing/github/wyq_blog/service/logs/service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-01-05 22:27:34,965 INFO 62062 [egg-multipart] stream mode enable
+2020-01-05 22:27:35,044 INFO 62062 [egg-static] starting static serve /public/ -> /Users/wanyuqing/github/wyq_blog/service/app/public
+2020-01-05 22:27:35,047 INFO 62062 [egg-security] use csrf middleware
+2020-01-05 22:27:35,047 INFO 62062 [egg-security] use methodnoallow middleware
+2020-01-05 22:27:35,048 INFO 62062 [egg-security] use noopen middleware
+2020-01-05 22:27:35,050 INFO 62062 [egg-security] use nosniff middleware
+2020-01-05 22:27:35,051 INFO 62062 [egg-security] use xssProtection middleware
+2020-01-05 22:27:35,051 INFO 62062 [egg-security] use xframe middleware
+2020-01-05 22:27:35,052 INFO 62062 [egg-security] use dta middleware
+2020-01-05 22:27:35,052 INFO 62062 [egg-security] compose 7 middlewares into one security middleware
+2020-01-05 22:27:35,063 INFO 62062 [egg:core] dump config after load, 7ms
+2020-01-05 22:27:35,087 INFO 62062 [egg-watcher:application] watcher start success
+2020-01-05 22:27:35,092 INFO 62062 [egg:core] dump config after ready, 4ms
+2020-01-05 22:31:20,367 INFO 62187 [egg:logger] init all loggers with options: {"dir":"/Users/wanyuqing/github/wyq_blog/service/logs/service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-01-05 22:31:20,438 INFO 62187 [egg-multipart] stream mode enable
+2020-01-05 22:31:20,580 INFO 62187 [egg-static] starting static serve /public/ -> /Users/wanyuqing/github/wyq_blog/service/app/public
+2020-01-05 22:31:20,585 INFO 62187 [egg-security] use csrf middleware
+2020-01-05 22:31:20,586 INFO 62187 [egg-security] use methodnoallow middleware
+2020-01-05 22:31:20,586 INFO 62187 [egg-security] use noopen middleware
+2020-01-05 22:31:20,597 INFO 62187 [egg-security] use nosniff middleware
+2020-01-05 22:31:20,599 INFO 62187 [egg-security] use xssProtection middleware
+2020-01-05 22:31:20,600 INFO 62187 [egg-security] use xframe middleware
+2020-01-05 22:31:20,600 INFO 62187 [egg-security] use dta middleware
+2020-01-05 22:31:20,600 INFO 62187 [egg-security] compose 7 middlewares into one security middleware
+2020-01-05 22:31:20,624 INFO 62187 [egg:core] dump config after load, 11ms
+2020-01-05 22:31:20,658 INFO 62187 [egg-watcher:application] watcher start success
+2020-01-05 22:31:20,670 INFO 62187 [egg:core] dump config after ready, 7ms
+2020-01-05 22:31:32,690 INFO 62197 [egg:logger] init all loggers with options: {"dir":"/Users/wanyuqing/github/wyq_blog/service/logs/service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-01-05 22:31:32,725 INFO 62197 [egg-multipart] stream mode enable
+2020-01-05 22:31:32,807 INFO 62197 [egg-static] starting static serve /public/ -> /Users/wanyuqing/github/wyq_blog/service/app/public
+2020-01-05 22:31:32,812 INFO 62197 [egg-security] use csrf middleware
+2020-01-05 22:31:32,813 INFO 62197 [egg-security] use methodnoallow middleware
+2020-01-05 22:31:32,814 INFO 62197 [egg-security] use noopen middleware
+2020-01-05 22:31:32,822 INFO 62197 [egg-security] use nosniff middleware
+2020-01-05 22:31:32,823 INFO 62197 [egg-security] use xssProtection middleware
+2020-01-05 22:31:32,823 INFO 62197 [egg-security] use xframe middleware
+2020-01-05 22:31:32,824 INFO 62197 [egg-security] use dta middleware
+2020-01-05 22:31:32,824 INFO 62197 [egg-security] compose 7 middlewares into one security middleware
+2020-01-05 22:31:32,839 INFO 62197 [egg:core] dump config after load, 6ms
+2020-01-05 22:31:32,854 INFO 62197 [egg-watcher:application] watcher start success
+2020-01-05 22:31:32,862 INFO 62197 [egg:core] dump config after ready, 6ms
+2020-01-05 22:31:38,539 INFO 62203 [egg:logger] init all loggers with options: {"dir":"/Users/wanyuqing/github/wyq_blog/service/logs/service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-01-05 22:31:38,575 INFO 62203 [egg-multipart] stream mode enable
+2020-01-05 22:31:38,639 INFO 62203 [egg-static] starting static serve /public/ -> /Users/wanyuqing/github/wyq_blog/service/app/public
+2020-01-05 22:31:38,642 INFO 62203 [egg-security] use csrf middleware
+2020-01-05 22:31:38,643 INFO 62203 [egg-security] use methodnoallow middleware
+2020-01-05 22:31:38,644 INFO 62203 [egg-security] use noopen middleware
+2020-01-05 22:31:38,647 INFO 62203 [egg-security] use nosniff middleware
+2020-01-05 22:31:38,649 INFO 62203 [egg-security] use xssProtection middleware
+2020-01-05 22:31:38,650 INFO 62203 [egg-security] use xframe middleware
+2020-01-05 22:31:38,650 INFO 62203 [egg-security] use dta middleware
+2020-01-05 22:31:38,650 INFO 62203 [egg-security] compose 7 middlewares into one security middleware
+2020-01-05 22:31:38,666 INFO 62203 [egg:core] dump config after load, 9ms
+2020-01-05 22:31:38,679 INFO 62203 [egg-watcher:application] watcher start success
+2020-01-05 22:31:38,684 INFO 62203 [egg:core] dump config after ready, 3ms
+2020-01-05 22:31:54,448 INFO 62209 [egg:logger] init all loggers with options: {"dir":"/Users/wanyuqing/github/wyq_blog/service/logs/service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-01-05 22:31:54,482 INFO 62209 [egg-multipart] stream mode enable
+2020-01-05 22:31:54,542 INFO 62209 [egg-static] starting static serve /public/ -> /Users/wanyuqing/github/wyq_blog/service/app/public
+2020-01-05 22:31:54,549 INFO 62209 [egg-security] use csrf middleware
+2020-01-05 22:31:54,551 INFO 62209 [egg-security] use methodnoallow middleware
+2020-01-05 22:31:54,551 INFO 62209 [egg-security] use noopen middleware
+2020-01-05 22:31:54,552 INFO 62209 [egg-security] use nosniff middleware
+2020-01-05 22:31:54,552 INFO 62209 [egg-security] use xssProtection middleware
+2020-01-05 22:31:54,553 INFO 62209 [egg-security] use xframe middleware
+2020-01-05 22:31:54,553 INFO 62209 [egg-security] use dta middleware
+2020-01-05 22:31:54,553 INFO 62209 [egg-security] compose 7 middlewares into one security middleware
+2020-01-05 22:31:54,568 INFO 62209 [egg:core] dump config after load, 5ms
+2020-01-05 22:31:54,582 INFO 62209 [egg-watcher:application] watcher start success
+2020-01-05 22:31:54,588 INFO 62209 [egg:core] dump config after ready, 4ms
+2020-01-05 22:32:47,540 INFO 62243 [egg:logger] init all loggers with options: {"dir":"/Users/wanyuqing/github/wyq_blog/service/logs/service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-01-05 22:32:47,600 INFO 62243 [egg-multipart] stream mode enable
+2020-01-05 22:32:47,705 INFO 62243 [egg-static] starting static serve /public/ -> /Users/wanyuqing/github/wyq_blog/service/app/public
+2020-01-05 22:32:47,713 INFO 62243 [egg-security] use csrf middleware
+2020-01-05 22:32:47,715 INFO 62243 [egg-security] use methodnoallow middleware
+2020-01-05 22:32:47,716 INFO 62243 [egg-security] use noopen middleware
+2020-01-05 22:32:47,717 INFO 62243 [egg-security] use nosniff middleware
+2020-01-05 22:32:47,717 INFO 62243 [egg-security] use xssProtection middleware
+2020-01-05 22:32:47,718 INFO 62243 [egg-security] use xframe middleware
+2020-01-05 22:32:47,719 INFO 62243 [egg-security] use dta middleware
+2020-01-05 22:32:47,719 INFO 62243 [egg-security] compose 7 middlewares into one security middleware
+2020-01-05 22:32:47,736 INFO 62243 [egg:core] dump config after load, 9ms
+2020-01-05 22:32:47,771 INFO 62243 [egg-watcher:application] watcher start success
+2020-01-05 22:32:47,782 INFO 62243 [egg:core] dump config after ready, 7ms
+2020-01-05 22:32:51,489 INFO 62249 [egg:logger] init all loggers with options: {"dir":"/Users/wanyuqing/github/wyq_blog/service/logs/service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-01-05 22:32:51,567 INFO 62249 [egg-multipart] stream mode enable
+2020-01-05 22:32:51,663 INFO 62249 [egg-static] starting static serve /public/ -> /Users/wanyuqing/github/wyq_blog/service/app/public
+2020-01-05 22:32:51,671 INFO 62249 [egg-security] use csrf middleware
+2020-01-05 22:32:51,673 INFO 62249 [egg-security] use methodnoallow middleware
+2020-01-05 22:32:51,674 INFO 62249 [egg-security] use noopen middleware
+2020-01-05 22:32:51,675 INFO 62249 [egg-security] use nosniff middleware
+2020-01-05 22:32:51,676 INFO 62249 [egg-security] use xssProtection middleware
+2020-01-05 22:32:51,676 INFO 62249 [egg-security] use xframe middleware
+2020-01-05 22:32:51,684 INFO 62249 [egg-security] use dta middleware
+2020-01-05 22:32:51,684 INFO 62249 [egg-security] compose 7 middlewares into one security middleware
+2020-01-05 22:32:51,706 INFO 62249 [egg:core] dump config after load, 6ms
+2020-01-05 22:32:51,730 INFO 62249 [egg-watcher:application] watcher start success
+2020-01-05 22:32:51,740 INFO 62249 [egg:core] dump config after ready, 5ms
+2020-01-05 22:33:55,889 INFO 62287 [egg:logger] init all loggers with options: {"dir":"/Users/wanyuqing/github/wyq_blog/service/logs/service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-01-05 22:33:55,944 INFO 62287 [egg-multipart] stream mode enable
+2020-01-05 22:33:56,016 INFO 62287 [egg-static] starting static serve /public/ -> /Users/wanyuqing/github/wyq_blog/service/app/public
+2020-01-05 22:33:56,022 INFO 62287 [egg-security] use csrf middleware
+2020-01-05 22:33:56,023 INFO 62287 [egg-security] use methodnoallow middleware
+2020-01-05 22:33:56,024 INFO 62287 [egg-security] use noopen middleware
+2020-01-05 22:33:56,024 INFO 62287 [egg-security] use nosniff middleware
+2020-01-05 22:33:56,025 INFO 62287 [egg-security] use xssProtection middleware
+2020-01-05 22:33:56,032 INFO 62287 [egg-security] use xframe middleware
+2020-01-05 22:33:56,033 INFO 62287 [egg-security] use dta middleware
+2020-01-05 22:33:56,033 INFO 62287 [egg-security] compose 7 middlewares into one security middleware
+2020-01-05 22:33:56,057 INFO 62287 [egg:core] dump config after load, 8ms
+2020-01-05 22:33:56,080 INFO 62287 [egg-watcher:application] watcher start success
+2020-01-05 22:33:56,086 INFO 62287 [egg:core] dump config after ready, 4ms
+2020-01-05 22:34:13,259 INFO 62300 [egg:logger] init all loggers with options: {"dir":"/Users/wanyuqing/github/wyq_blog/service/logs/service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-01-05 22:34:13,295 INFO 62300 [egg-multipart] stream mode enable
+2020-01-05 22:34:13,361 INFO 62300 [egg-static] starting static serve /public/ -> /Users/wanyuqing/github/wyq_blog/service/app/public
+2020-01-05 22:34:13,365 INFO 62300 [egg-security] use csrf middleware
+2020-01-05 22:34:13,366 INFO 62300 [egg-security] use methodnoallow middleware
+2020-01-05 22:34:13,367 INFO 62300 [egg-security] use noopen middleware
+2020-01-05 22:34:13,370 INFO 62300 [egg-security] use nosniff middleware
+2020-01-05 22:34:13,371 INFO 62300 [egg-security] use xssProtection middleware
+2020-01-05 22:34:13,372 INFO 62300 [egg-security] use xframe middleware
+2020-01-05 22:34:13,373 INFO 62300 [egg-security] use dta middleware
+2020-01-05 22:34:13,373 INFO 62300 [egg-security] compose 7 middlewares into one security middleware
+2020-01-05 22:34:13,389 INFO 62300 [egg:core] dump config after load, 8ms
+2020-01-05 22:34:13,401 INFO 62300 [egg-watcher:application] watcher start success
+2020-01-05 22:34:13,410 INFO 62300 [egg:core] dump config after ready, 6ms
+2020-01-05 22:34:22,579 INFO 62306 [egg:logger] init all loggers with options: {"dir":"/Users/wanyuqing/github/wyq_blog/service/logs/service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-01-05 22:34:22,617 INFO 62306 [egg-multipart] stream mode enable
+2020-01-05 22:34:22,700 INFO 62306 [egg-static] starting static serve /public/ -> /Users/wanyuqing/github/wyq_blog/service/app/public
+2020-01-05 22:34:22,706 INFO 62306 [egg-security] use csrf middleware
+2020-01-05 22:34:22,707 INFO 62306 [egg-security] use methodnoallow middleware
+2020-01-05 22:34:22,708 INFO 62306 [egg-security] use noopen middleware
+2020-01-05 22:34:22,709 INFO 62306 [egg-security] use nosniff middleware
+2020-01-05 22:34:22,710 INFO 62306 [egg-security] use xssProtection middleware
+2020-01-05 22:34:22,710 INFO 62306 [egg-security] use xframe middleware
+2020-01-05 22:34:22,715 INFO 62306 [egg-security] use dta middleware
+2020-01-05 22:34:22,715 INFO 62306 [egg-security] compose 7 middlewares into one security middleware
+2020-01-05 22:34:22,728 INFO 62306 [egg:core] dump config after load, 6ms
+2020-01-05 22:34:22,741 INFO 62306 [egg-watcher:application] watcher start success
+2020-01-05 22:34:22,750 INFO 62306 [egg:core] dump config after ready, 7ms
+2020-01-05 22:34:28,119 INFO 62307 [egg:logger] init all loggers with options: {"dir":"/Users/wanyuqing/github/wyq_blog/service/logs/service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-01-05 22:34:28,161 INFO 62307 [egg-multipart] stream mode enable
+2020-01-05 22:34:28,222 INFO 62307 [egg-static] starting static serve /public/ -> /Users/wanyuqing/github/wyq_blog/service/app/public
+2020-01-05 22:34:28,226 INFO 62307 [egg-security] use csrf middleware
+2020-01-05 22:34:28,226 INFO 62307 [egg-security] use methodnoallow middleware
+2020-01-05 22:34:28,227 INFO 62307 [egg-security] use noopen middleware
+2020-01-05 22:34:28,232 INFO 62307 [egg-security] use nosniff middleware
+2020-01-05 22:34:28,234 INFO 62307 [egg-security] use xssProtection middleware
+2020-01-05 22:34:28,234 INFO 62307 [egg-security] use xframe middleware
+2020-01-05 22:34:28,235 INFO 62307 [egg-security] use dta middleware
+2020-01-05 22:34:28,235 INFO 62307 [egg-security] compose 7 middlewares into one security middleware
+2020-01-05 22:34:28,256 INFO 62307 [egg:core] dump config after load, 16ms
+2020-01-05 22:34:28,275 INFO 62307 [egg-watcher:application] watcher start success
+2020-01-05 22:34:28,282 INFO 62307 [egg:core] dump config after ready, 4ms
+2020-01-05 22:34:34,807 INFO 62313 [egg:logger] init all loggers with options: {"dir":"/Users/wanyuqing/github/wyq_blog/service/logs/service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-01-05 22:34:34,882 INFO 62313 [egg-multipart] stream mode enable
+2020-01-05 22:34:34,960 INFO 62313 [egg-static] starting static serve /public/ -> /Users/wanyuqing/github/wyq_blog/service/app/public
+2020-01-05 22:34:34,964 INFO 62313 [egg-security] use csrf middleware
+2020-01-05 22:34:34,965 INFO 62313 [egg-security] use methodnoallow middleware
+2020-01-05 22:34:34,966 INFO 62313 [egg-security] use noopen middleware
+2020-01-05 22:34:34,975 INFO 62313 [egg-security] use nosniff middleware
+2020-01-05 22:34:34,976 INFO 62313 [egg-security] use xssProtection middleware
+2020-01-05 22:34:34,977 INFO 62313 [egg-security] use xframe middleware
+2020-01-05 22:34:34,978 INFO 62313 [egg-security] use dta middleware
+2020-01-05 22:34:34,978 INFO 62313 [egg-security] compose 7 middlewares into one security middleware
+2020-01-05 22:34:34,997 INFO 62313 [egg:core] dump config after load, 10ms
+2020-01-05 22:34:35,019 INFO 62313 [egg-watcher:application] watcher start success
+2020-01-05 22:34:35,030 INFO 62313 [egg:core] dump config after ready, 8ms
+2020-01-05 22:34:47,971 INFO 62320 [egg:logger] init all loggers with options: {"dir":"/Users/wanyuqing/github/wyq_blog/service/logs/service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-01-05 22:34:48,020 INFO 62320 [egg-multipart] stream mode enable
+2020-01-05 22:34:48,100 INFO 62320 [egg-static] starting static serve /public/ -> /Users/wanyuqing/github/wyq_blog/service/app/public
+2020-01-05 22:34:48,105 INFO 62320 [egg-security] use csrf middleware
+2020-01-05 22:34:48,109 INFO 62320 [egg-security] use methodnoallow middleware
+2020-01-05 22:34:48,109 INFO 62320 [egg-security] use noopen middleware
+2020-01-05 22:34:48,110 INFO 62320 [egg-security] use nosniff middleware
+2020-01-05 22:34:48,111 INFO 62320 [egg-security] use xssProtection middleware
+2020-01-05 22:34:48,112 INFO 62320 [egg-security] use xframe middleware
+2020-01-05 22:34:48,113 INFO 62320 [egg-security] use dta middleware
+2020-01-05 22:34:48,113 INFO 62320 [egg-security] compose 7 middlewares into one security middleware
+2020-01-05 22:34:48,129 INFO 62320 [egg:core] dump config after load, 8ms
+2020-01-05 22:34:48,141 INFO 62320 [egg-watcher:application] watcher start success
+2020-01-05 22:34:48,146 INFO 62320 [egg:core] dump config after ready, 3ms
+2020-01-05 22:35:13,839 INFO 62342 [egg:logger] init all loggers with options: {"dir":"/Users/wanyuqing/github/wyq_blog/service/logs/service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-01-05 22:35:13,872 INFO 62342 [egg-multipart] stream mode enable
+2020-01-05 22:35:13,941 INFO 62342 [egg-static] starting static serve /public/ -> /Users/wanyuqing/github/wyq_blog/service/app/public
+2020-01-05 22:35:13,944 INFO 62342 [egg-security] use csrf middleware
+2020-01-05 22:35:13,944 INFO 62342 [egg-security] use methodnoallow middleware
+2020-01-05 22:35:13,945 INFO 62342 [egg-security] use noopen middleware
+2020-01-05 22:35:13,946 INFO 62342 [egg-security] use nosniff middleware
+2020-01-05 22:35:13,947 INFO 62342 [egg-security] use xssProtection middleware
+2020-01-05 22:35:13,950 INFO 62342 [egg-security] use xframe middleware
+2020-01-05 22:35:13,952 INFO 62342 [egg-security] use dta middleware
+2020-01-05 22:35:13,952 INFO 62342 [egg-security] compose 7 middlewares into one security middleware
+2020-01-05 22:35:13,967 INFO 62342 [egg:core] dump config after load, 10ms
+2020-01-05 22:35:13,979 INFO 62342 [egg-watcher:application] watcher start success
+2020-01-05 22:35:13,985 INFO 62342 [egg:core] dump config after ready, 4ms
+2020-01-05 22:35:32,117 INFO 62366 [egg:logger] init all loggers with options: {"dir":"/Users/wanyuqing/github/wyq_blog/service/logs/service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-01-05 22:35:32,165 INFO 62366 [egg-multipart] stream mode enable
+2020-01-05 22:35:32,234 INFO 62366 [egg-static] starting static serve /public/ -> /Users/wanyuqing/github/wyq_blog/service/app/public
+2020-01-05 22:35:32,239 INFO 62366 [egg-security] use csrf middleware
+2020-01-05 22:35:32,240 INFO 62366 [egg-security] use methodnoallow middleware
+2020-01-05 22:35:32,241 INFO 62366 [egg-security] use noopen middleware
+2020-01-05 22:35:32,242 INFO 62366 [egg-security] use nosniff middleware
+2020-01-05 22:35:32,242 INFO 62366 [egg-security] use xssProtection middleware
+2020-01-05 22:35:32,243 INFO 62366 [egg-security] use xframe middleware
+2020-01-05 22:35:32,261 INFO 62366 [egg-security] use dta middleware
+2020-01-05 22:35:32,261 INFO 62366 [egg-security] compose 7 middlewares into one security middleware
+2020-01-05 22:35:32,276 INFO 62366 [egg:core] dump config after load, 9ms
+2020-01-05 22:35:32,289 INFO 62366 [egg-watcher:application] watcher start success
+2020-01-05 22:35:32,298 INFO 62366 [egg:core] dump config after ready, 7ms
+2020-01-05 22:35:34,067 INFO 62372 [egg:logger] init all loggers with options: {"dir":"/Users/wanyuqing/github/wyq_blog/service/logs/service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-01-05 22:35:34,107 INFO 62372 [egg-multipart] stream mode enable
+2020-01-05 22:35:34,166 INFO 62372 [egg-static] starting static serve /public/ -> /Users/wanyuqing/github/wyq_blog/service/app/public
+2020-01-05 22:35:34,169 INFO 62372 [egg-security] use csrf middleware
+2020-01-05 22:35:34,170 INFO 62372 [egg-security] use methodnoallow middleware
+2020-01-05 22:35:34,170 INFO 62372 [egg-security] use noopen middleware
+2020-01-05 22:35:34,171 INFO 62372 [egg-security] use nosniff middleware
+2020-01-05 22:35:34,171 INFO 62372 [egg-security] use xssProtection middleware
+2020-01-05 22:35:34,172 INFO 62372 [egg-security] use xframe middleware
+2020-01-05 22:35:34,172 INFO 62372 [egg-security] use dta middleware
+2020-01-05 22:35:34,172 INFO 62372 [egg-security] compose 7 middlewares into one security middleware
+2020-01-05 22:35:34,187 INFO 62372 [egg:core] dump config after load, 10ms
+2020-01-05 22:35:34,200 INFO 62372 [egg-watcher:application] watcher start success
+2020-01-05 22:35:34,206 INFO 62372 [egg:core] dump config after ready, 4ms
+2020-01-05 22:35:35,627 INFO 62373 [egg:logger] init all loggers with options: {"dir":"/Users/wanyuqing/github/wyq_blog/service/logs/service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-01-05 22:35:35,682 INFO 62373 [egg-multipart] stream mode enable
+2020-01-05 22:35:35,742 INFO 62373 [egg-static] starting static serve /public/ -> /Users/wanyuqing/github/wyq_blog/service/app/public
+2020-01-05 22:35:35,745 INFO 62373 [egg-security] use csrf middleware
+2020-01-05 22:35:35,746 INFO 62373 [egg-security] use methodnoallow middleware
+2020-01-05 22:35:35,747 INFO 62373 [egg-security] use noopen middleware
+2020-01-05 22:35:35,748 INFO 62373 [egg-security] use nosniff middleware
+2020-01-05 22:35:35,749 INFO 62373 [egg-security] use xssProtection middleware
+2020-01-05 22:35:35,749 INFO 62373 [egg-security] use xframe middleware
+2020-01-05 22:35:35,752 INFO 62373 [egg-security] use dta middleware
+2020-01-05 22:35:35,752 INFO 62373 [egg-security] compose 7 middlewares into one security middleware
+2020-01-05 22:35:35,772 INFO 62373 [egg:core] dump config after load, 13ms
+2020-01-05 22:35:35,794 INFO 62373 [egg-watcher:application] watcher start success
+2020-01-05 22:35:36,635 INFO 62374 [egg:logger] init all loggers with options: {"dir":"/Users/wanyuqing/github/wyq_blog/service/logs/service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-01-05 22:35:36,674 INFO 62374 [egg-multipart] stream mode enable
+2020-01-05 22:35:36,736 INFO 62374 [egg-static] starting static serve /public/ -> /Users/wanyuqing/github/wyq_blog/service/app/public
+2020-01-05 22:35:36,741 INFO 62374 [egg-security] use csrf middleware
+2020-01-05 22:35:36,743 INFO 62374 [egg-security] use methodnoallow middleware
+2020-01-05 22:35:36,744 INFO 62374 [egg-security] use noopen middleware
+2020-01-05 22:35:36,745 INFO 62374 [egg-security] use nosniff middleware
+2020-01-05 22:35:36,745 INFO 62374 [egg-security] use xssProtection middleware
+2020-01-05 22:35:36,745 INFO 62374 [egg-security] use xframe middleware
+2020-01-05 22:35:36,746 INFO 62374 [egg-security] use dta middleware
+2020-01-05 22:35:36,746 INFO 62374 [egg-security] compose 7 middlewares into one security middleware
+2020-01-05 22:35:36,770 INFO 62374 [egg:core] dump config after load, 13ms
+2020-01-05 22:35:36,788 INFO 62374 [egg-watcher:application] watcher start success
+2020-01-05 22:35:36,795 INFO 62374 [egg:core] dump config after ready, 4ms
+2020-01-05 22:35:45,078 INFO 62380 [egg:logger] init all loggers with options: {"dir":"/Users/wanyuqing/github/wyq_blog/service/logs/service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-01-05 22:35:45,150 INFO 62380 [egg-multipart] stream mode enable
+2020-01-05 22:35:45,254 INFO 62380 [egg-static] starting static serve /public/ -> /Users/wanyuqing/github/wyq_blog/service/app/public
+2020-01-05 22:35:45,262 INFO 62380 [egg-security] use csrf middleware
+2020-01-05 22:35:45,263 INFO 62380 [egg-security] use methodnoallow middleware
+2020-01-05 22:35:45,264 INFO 62380 [egg-security] use noopen middleware
+2020-01-05 22:35:45,274 INFO 62380 [egg-security] use nosniff middleware
+2020-01-05 22:35:45,275 INFO 62380 [egg-security] use xssProtection middleware
+2020-01-05 22:35:45,275 INFO 62380 [egg-security] use xframe middleware
+2020-01-05 22:35:45,276 INFO 62380 [egg-security] use dta middleware
+2020-01-05 22:35:45,276 INFO 62380 [egg-security] compose 7 middlewares into one security middleware
+2020-01-05 22:35:45,302 INFO 62380 [egg:core] dump config after load, 12ms
+2020-01-05 22:35:45,329 INFO 62380 [egg-watcher:application] watcher start success
+2020-01-05 22:35:45,341 INFO 62380 [egg:core] dump config after ready, 8ms
+2020-01-05 22:36:24,718 INFO 62406 [egg:logger] init all loggers with options: {"dir":"/Users/wanyuqing/github/wyq_blog/service/logs/service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-01-05 22:36:24,755 INFO 62406 [egg-multipart] stream mode enable
+2020-01-05 22:36:24,819 INFO 62406 [egg-static] starting static serve /public/ -> /Users/wanyuqing/github/wyq_blog/service/app/public
+2020-01-05 22:36:24,823 INFO 62406 [egg-security] use csrf middleware
+2020-01-05 22:36:24,824 INFO 62406 [egg-security] use methodnoallow middleware
+2020-01-05 22:36:24,825 INFO 62406 [egg-security] use noopen middleware
+2020-01-05 22:36:24,828 INFO 62406 [egg-security] use nosniff middleware
+2020-01-05 22:36:24,828 INFO 62406 [egg-security] use xssProtection middleware
+2020-01-05 22:36:24,829 INFO 62406 [egg-security] use xframe middleware
+2020-01-05 22:36:24,829 INFO 62406 [egg-security] use dta middleware
+2020-01-05 22:36:24,830 INFO 62406 [egg-security] compose 7 middlewares into one security middleware
+2020-01-05 22:36:24,846 INFO 62406 [egg:core] dump config after load, 5ms
+2020-01-05 22:36:24,862 INFO 62406 [egg-watcher:application] watcher start success
+2020-01-05 22:36:24,871 INFO 62406 [egg:core] dump config after ready, 6ms
+2020-01-06 00:00:00,062 INFO 62406 [egg-logrotator] clean all log before 31 days
+2020-01-06 00:00:01,009 INFO 62406 [egg-logrotator] broadcast log-reload
+2020-01-06 00:00:01,010 INFO 62406 [egg-logrotator] rotate files success by DayRotator, files ["/Users/wanyuqing/github/wyq_blog/service/logs/service/common-error.log -> /Users/wanyuqing/github/wyq_blog/service/logs/service/common-error.log.2020-01-05","/Users/wanyuqing/github/wyq_blog/service/logs/service/service-web.log -> /Users/wanyuqing/github/wyq_blog/service/logs/service/service-web.log.2020-01-05","/Users/wanyuqing/github/wyq_blog/service/logs/service/egg-web.log -> /Users/wanyuqing/github/wyq_blog/service/logs/service/egg-web.log.2020-01-05","/Users/wanyuqing/github/wyq_blog/service/logs/service/egg-schedule.log -> /Users/wanyuqing/github/wyq_blog/service/logs/service/egg-schedule.log.2020-01-05","/Users/wanyuqing/github/wyq_blog/service/logs/service/egg-agent.log -> /Users/wanyuqing/github/wyq_blog/service/logs/service/egg-agent.log.2020-01-05"]

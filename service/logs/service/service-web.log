@@ -1,0 +1,24 @@
+2020-05-30 12:28:48,225 ERROR 15293 [-/127.0.0.1/-/0ms GET /] nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+    --------------------
+    at Protocol._enqueue (/Users/wanyuqing/github/wyq_blog/service/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/wanyuqing/github/wyq_blog/service/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/wanyuqing/github/wyq_blog/service/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/Users/wanyuqing/github/wyq_blog/service/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/wanyuqing/github/wyq_blog/service/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/wanyuqing/github/wyq_blog/service/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/wanyuqing/github/wyq_blog/service/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/wanyuqing/github/wyq_blog/service/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/wanyuqing/github/wyq_blog/service/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 3306
+fatal: true
+name: "ECONNREFUSEDError"
+pid: 15293
+hostname: admindeMBP-71.lan
+

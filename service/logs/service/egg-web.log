@@ -1,0 +1,18 @@
+2020-01-14 00:00:01,027 INFO 92852 [egg-logrotator] app logger reload: got log-reload message
+2020-01-14 04:30:00,018 INFO 92852 [-/127.0.0.1/-/3ms SCHEDULE /__schedule?path=/Users/wanyuqing/github/wyq_blog/service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/var/folders/qv/hplv7psx3hj6nh0j9_6994340000gn/T/egg-multipart-tmp/service"
+2020-01-14 04:30:00,027 INFO 92852 [-/127.0.0.1/-/13ms SCHEDULE /__schedule?path=/Users/wanyuqing/github/wyq_blog/service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] end
+2020-05-30 12:28:48,020 INFO 15293 [egg:logger] init all loggers with options: {"dir":"/Users/wanyuqing/github/wyq_blog/service/logs/service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-30 12:28:48,053 INFO 15293 [egg-multipart] stream mode enable
+2020-05-30 12:28:48,054 INFO 15293 [egg-mysql] connecting root@localhost:3306/react-blog
+2020-05-30 12:28:48,188 INFO 15293 [egg-static] starting static serve /public/ -> /Users/wanyuqing/github/wyq_blog/service/app/public
+2020-05-30 12:28:48,191 INFO 15293 [egg-security] use csrf middleware
+2020-05-30 12:28:48,192 INFO 15293 [egg-security] use methodnoallow middleware
+2020-05-30 12:28:48,192 INFO 15293 [egg-security] use noopen middleware
+2020-05-30 12:28:48,193 INFO 15293 [egg-security] use nosniff middleware
+2020-05-30 12:28:48,194 INFO 15293 [egg-security] use xssProtection middleware
+2020-05-30 12:28:48,194 INFO 15293 [egg-security] use xframe middleware
+2020-05-30 12:28:48,195 INFO 15293 [egg-security] use dta middleware
+2020-05-30 12:28:48,195 INFO 15293 [egg-security] compose 7 middlewares into one security middleware
+2020-05-30 12:28:48,207 INFO 15293 [egg:core] dump config after load, 6ms
+2020-05-30 12:28:48,231 INFO 15293 [egg:core] dump config after ready, 4ms
+2020-05-30 12:28:48,234 INFO 15293 [egg-watcher:application] watcher start success
