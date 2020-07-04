@@ -8,9 +8,15 @@ const env = process.env.NODE_ENV || 'development'; // Current mode
 
 middleware.bodyParse(app);
 
-middleware.db(app);
+// middleware.db(app);
+
+// jwt相关
+// middleware.auth(app);
 
 middleware.router(app);
+
+// 异常处理
+middleware.errHandler(app);
 
 middleware.listen(app);
 

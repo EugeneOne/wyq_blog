@@ -13,6 +13,8 @@
     "test": "jest"
   },
   "dependencies": {
+    "dayjs": "^1.8.28",
+    "jsonwebtoken": "^8.5.1",
     "koa": "^2.12.1",
     "koa-body": "^4.2.0",
     "koa-jwt": "^4.0.0",
@@ -33,7 +35,8 @@
     "gulp-babel": "^8.0.0-beta.2",
     "gulp-eslint": "^6.0.0",
     "gulp-nodemon": "^2.5.0",
-    "mysql2": "^2.1.0"
+    "mysql2": "^2.1.0",
+    "sequelize-automate": "^1.2.2"
   },
   "engines": {
     "node": ">= 7.8.0",

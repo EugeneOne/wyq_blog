@@ -1,7 +1,10 @@
-import { DB_CONFIG as DBconfig, SYSTEM as SystemConfig } from '../config';
+import { DB_CONFIG as DB, SYSTEM as SystemConfig } from '../config';
 import Sequelize from 'sequelize';
 
-console.log('SystemConfig.db_type：', SystemConfig.db_type, DBconfig.database);
+const ENV = process.env.NODE_ENV;
+const DBconfig = DB[ENV];
+
+console.log('DBconfig.host：', DBconfig.host);
 
 const sequelize = new Sequelize(
   DBconfig.database,
@@ -23,16 +26,18 @@ const sequelize = new Sequelize(
       min: 0,
       idle: 10000,
     },
+    define: {
+      timestamps: false,
+    },
   }
 );
+sequelize
+  .authenticate()
+  .then(() => {
+    console.log('Connection has been established successfully.');
+  })
+  .catch((err) => {
+    console.error('Unable to connect to the database:', err);
+  });
 
-export default async (app) => {
-  sequelize
-    .authenticate()
-    .then(() => {
-      console.log('Connection has been established successfully.');
-    })
-    .catch((err) => {
-      console.error('Unable to connect to the database:', err);
-    });
-};
+export default sequelize;
