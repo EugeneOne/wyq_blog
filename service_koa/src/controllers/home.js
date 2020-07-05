@@ -1,7 +1,7 @@
 const home = {
   homePage: async (ctx, next) => {
     ctx.body = {
-      code: 200,
+      code: 0,
       msg: 'home',
     };
   },

@@ -10,6 +10,7 @@ router
   // 登录
   .post('/api/blog/login', controllers.login)
   .get('/home', controllers.homePage)
+  .get('/api/blog/get-article', controllers.getArticle)
   // 新增、编辑文章
   .post('/api/blog/edit-article', controllers.editArticle);
 

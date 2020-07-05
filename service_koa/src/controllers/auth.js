@@ -27,7 +27,7 @@ const article = {
         'PUBLIC_KEY',
         { expiresIn: '2h' }
       );
-      ctx.cookies.set('token', 'token', {
+      ctx.cookies.set('token', token, {
         domain: 'localhost', // 写cookie所在的域名
         path: '/', // 写cookie所在的路径
         maxAge: 10 * 60 * 1000, // cookie有效时长
@@ -36,7 +36,7 @@ const article = {
         overwrite: false, // 是否允许重写
       });
       ctx.body = {
-        code: 200,
+        code: 0,
         msg: '登录成功',
       };
     } else {
